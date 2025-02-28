@@ -1,1 +1,0 @@
-import{_ as t,o as s,c as r,a as n}from"./index-560f559c.js";const a={},c={class:"flex min-h-screen items-center justify-center"};function o(l,e){return s(),r("main",c,e[0]||(e[0]=[n("h1",{class:"text-6xl font-extrabold text-purple-900"},"I'm Other Page",-1)]))}const _=t(a,[["render",o]]);export{_ as default};
