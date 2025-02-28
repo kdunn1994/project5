@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-slate-900 h-20 items-center text-white">
+  <nav class="bg-purple-900 h-20 items-center text-white">
     <RouterLink :to="{ name: 'Home' }">Home</RouterLink>
     <RouterLink :to="{ name: 'Other' }">Other</RouterLink>
     
