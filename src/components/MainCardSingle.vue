@@ -9,6 +9,7 @@
     const email = faker.internet.email()
     const phone = faker.phone.number()
     const date = faker.date.recent()
+    const city = faker.address.city()
     
 </script>
 
@@ -18,6 +19,7 @@
             <img class="object-fill h-480 w-960 rounded-t-lg" :src="image" style="width: 300px; height: 200px; object-fit: cover;" />
             <div class="p-4">
                 <p class="mb-2 text-2xl font-bold">{{ firstname }} {{ lastname }}</p>
+                <p class="mb-3 font-normal text-gray-800">{{ city }}</p>
                 <p class="mb-3 font-normal text-gray-800">{{ date }}</p>
                 <p class="mb-3 font-normal text-gray-800">{{ email }}</p>
                 <p class="mb-3 font-normal text-gray-800">{{ phone }}</p>
